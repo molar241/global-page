@@ -1,0 +1,527 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.navli{
+ list-style-type: none;
+ padding: 20px 20px;
+}
+.top{
+    text-decoration: none;
+    color: black;
+}
+.navul{
+    display: flex;
+    justify-content: center;
+}
+.top:hover{
+    color: brown;
+}
+#content{
+    width: 38%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.but{
+    text-decoration: none;
+    background-color: darkorange;
+    padding: 5px 20px;
+    border-radius:15px;
+    color: white;
+}
+.buts{
+    text-decoration: none;
+    background-color:white;
+    padding: 5px 20px;
+    border-radius:15px;
+    color: black;
+}
+#maincon{
+    background-color: black;
+    padding: 7% 0 7% 17%;
+}
+.subcon1{
+   color: orange;
+}
+.subcon2{
+    padding-bottom: 10px;
+    font-size: 28px;
+}
+#maincon2{
+    display: flex;
+    justify-content: center;
+    padding: 4% 0 4% 0;
+}
+#con2{
+    width: 27%;
+    padding-right: 20px;
+}
+#con3{
+width: 38%;
+}
+.diff{
+    color: darkorange;
+}
+.readbut{
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px 23px;
+    border-radius: 15px;
+}
+.sub{
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.lor{
+    font-size: 19px;
+}
+    
+#section{
+    background-color: lightgray;
+    padding: 50px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#personal{
+    display: flex;
+}
+.subsec{
+    font-size: 17px;
+}
+#services{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+.text{
+    text-align: center;
+    padding-bottom: 35px;
+    width: 45%;
+}
+#box{
+    width: 16%;
+    padding:35px 20px 20px 20px;
+    box-shadow:1px 1px 5px 1px ;
+    text-align: center;
+    margin-right: 10px;
+
+}
+.contact{
+    color:white ;
+    background-color: darkorange;
+    text-decoration: none;
+    padding: 7px 25px;
+    border-radius: 15px;
+}
+.icon{
+    color: darkorange;
+    border: solid 0.08em #eee;
+    padding:40px 20px 20px 20px;
+    border-radius: 40px;
+}
+        .icontext{
+            padding-top: 35px;
+        }
+        .hper{
+            padding-bottom: 8px;
+        }
+        .boxpar{
+            font-size: 18px;
+        }
+.eye{
+    color:white;
+    background-color: darkorange;
+    padding: 35px 10px 15px 10px ;  
+    border-radius: 50px;
+}
+.det{
+    display: flex;
+}
+.peye{
+    padding-right: 10px;
+}
+.pkey{
+    padding-right: 20px;
+}
+.box2icon{
+    color: white;
+}
+    .box2text{
+        padding-top:10px;
+    }
+
+    #box2services{
+        width: 35%;
+    }
+.boxa{
+    text-decoration: none;
+    color: black;
+}
+.boxli{
+    color: darkorange;
+    font-weight: bold;
+}
+
+
+.pint{
+    font-size: 17px;
+}
+#wrapper{
+    display: grid;
+    width: 32%;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding-right: 20px;
+}
+.box2{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 25px 0 25px 0;
+}
+#section3{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 50px 0;
+}
+#section4{
+    display: flex;
+    justify-content: center;
+    background-color: darkslategrey;
+    color: white;
+    padding: 40px 0 40px 0;
+
+
+}
+.boxone{
+    width: 18%;
+    padding-right: 30px;
+}
+.boxtwo{
+    width: 15%;
+    padding-right: 20px;
+}
+.boxthree{
+    width: 15%;
+    padding-right: 20px;
+}
+.boxfour{
+    width: 15%;
+}
+.toptext{
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+.ficon{
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius:30px;
+}
+.copyright{
+    text-align: center;
+    color: #555;
+    background-color: black;
+    padding: 10px;
+}
+.fspan{
+
+    color: red;
+}
+
+/*MEDIA QUERY*/
+@media screen and (max-width:768px){
+    .navli{
+ list-style-type: none;
+ padding: 20px 15px;
+}
+    #content{
+    width: 60%;
+}
+    #maincon{
+    background-color: black;
+    padding: 7% 0 7% 10%;
+}
+    .aim{
+        font-size:17px;
+    }
+.topco2{
+    padding-bottom:15px;
+    font-size:19px
+}
+#con2{
+    width:40%
+}
+.sub{
+    font-size:20px
+}
+.lor{
+    font-size:18px
+}
+.peye{
+    padding-top:17px
+}
+#con3{
+    width:40%
+}
+.pkey{
+    padding-top:17px
+}
+.text{
+    width: 78%;
+    text-align: center;
+}
+#box{
+    width: 18%;
+    padding:30px 8px 20px 8px;
+    box-shadow:1px 1px 5px 1px ;
+    text-align: center;
+    margin-right: 10px;
+
+}
+    .boxpar{
+    font-size: 15px;
+}
+    .hper{
+        font-size:16px;
+    }
+    #wrapper{
+        display: grid;
+        width: 40%;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
+        padding-right: 20px;
+    }
+    .box2{
+        color: white;
+        background-color: black;
+        text-align: center;
+        padding:35px 0 10px 0 ;
+    }
+        #wrapper{
+        width: 40%;
+    }
+        .boxone{
+        width: 20%;
+        padding-right: 20px;
+    }
+    .boxtwo{
+        width: 20%;
+        padding-right: 20px;
+    }
+    .boxthree{
+        width: 20%;
+        padding-right: 20px;
+    }
+    .boxfour{
+        width: 18%;
+    }
+}
+
+@media screen and (max-width:425px){
+    .navli{
+ list-style-type: none;
+     padding: 15px 7px;
+}
+    .top{
+    font-size:10px
+}
+
+#maincon{
+    background-color: black;
+    padding: 7% 0 7% 10%;
+}
+    #content{
+    width: 60%;
+}
+    .subcon1{
+   font-size:12px;
+        font-weight:bold;
+}
+    .subcon2{
+        font-size:12px;
+          font-weight:bold;
+}
+    .aim{
+        font-size:11px;
+    }
+    .but{
+        font-size:10px;
+        padding: 5px 10px;
+    }
+    .buts{
+        font-size:10px;
+        padding: 5px 10px;
+    }
+    .topco2{
+        font-size:10px;
+    }
+        .sub{
+            font-size:10px;
+        }
+        .readbut{
+            font-size:10px;
+        }
+    #con2{
+        width:40%;
+    }
+    #con3{
+        width:41%;
+    }
+    .det{
+        font-size:11px;
+    }
+    .lor{
+        font-size:9px;
+    }
+    .eye{
+        font-size:8px;
+        padding:22px 10px 10px 10px;
+    }
+    .text{
+        width: 70%;
+            font-size:11px;
+            padding-bottom:19px;
+    }
+        .subsec{
+            font-size:11px
+        }
+        #box{
+        width: 20%;
+            padding:12px 6px 5px 6px ;
+        box-shadow:1px 1px 5px 1px ;
+        text-align: center;
+        margin-right: 10px;
+    
+    }
+        .icon{
+        color: darkorange;
+        border: solid 0.08em #eee;
+        padding:20px 10px 10px 10px;
+        border-radius:50%;
+            font-size:9px;
+    }
+        .icontext{
+            padding-top:15px;
+    }
+    .hper{
+        padding-bottom: 4px;
+        font-size:7px
+    }
+    .boxpar{
+        font-size: 9px;
+    }
+        #section{
+            padding:6% 0px 7% 0px;
+        } .text{
+    width: 70%;
+        font-size:11px;
+        padding-bottom:19px;
+}
+    .subsec{
+        font-size:11px
+    }
+    #box{
+    width: 20%;
+        padding:12px 6px 5px 6px ;
+    box-shadow:1px 1px 5px 1px ;
+    text-align: center;
+    margin-right: 10px;
+
+}
+    .icon{
+    color: darkorange;
+    border: solid 0.08em #eee;
+    padding:20px 10px 10px 10px;
+    border-radius:50%;
+        font-size:9px;
+}
+    .icontext{
+        padding-top:15px;
+}
+.hper{
+    padding-bottom: 4px;
+    font-size:7px
+}
+.boxpar{
+    font-size: 9px;
+}
+    #section{
+        padding:6% 0px 7% 0px;
+    }
+    #wrapper{
+        width: 50%;
+        grid-gap: 15px;
+        padding-right: 15px;
+    }
+    .box2{
+        padding: 15px 5px 15px 5px;
+    }
+    #section3{
+        display: flex;
+        justify-content: center;
+        padding: 40px 0 40px 0;
+    }
+          #box2services{
+            width: 40%;
+              font-size:12px
+        }
+        
+        .pint{
+        font-size: 11px;
+    }
+        .boxa{
+        font-size:11px;
+    }
+        .contact{
+        padding: 7px 15px;
+        font-size: 11px;
+    }
+     .box2text{
+          font-size:12px;
+        }
+        #section4{
+            padding: 30px 0 30px 0;
+        
+        
+        }
+        .boxone{
+            width: 30%;
+            padding-right: 17px;
+            font-size:8px
+        }
+        .boxtwo{
+            width: 21%;
+            padding-right:3px;
+              font-size:8px
+        }
+        .boxthree{
+            width: 18%;
+            padding-right: 10px;
+              font-size:8px
+        }
+        .boxfour{
+            width: 17%;
+              font-size:8px
+        }
+        .toptext{
+            padding-bottom: 15px;
+            font-weight: bold;
+            font-size:11px;
+        }
+        .ficon{
+            color: white;
+            border: 1px solid white;
+            padding: 3px;
+            border-radius:40px;
+        }
+            .copyright{
+            padding:10px  0  10px 0;
+                font-size:8px
+        }
+    }
